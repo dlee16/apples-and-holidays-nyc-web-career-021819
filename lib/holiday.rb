@@ -76,7 +76,7 @@ holiday_hash.each do |key, value|
     if supply.include?("BBQ")
       array.push(holiday)
     end
-end
+  end
 end
 array
 end
