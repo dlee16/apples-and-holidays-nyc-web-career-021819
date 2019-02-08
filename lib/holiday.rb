@@ -60,9 +60,9 @@ def all_supplies_in_holidays(holiday_hash)
 holiday_hash.each do |key, value| 
   puts "#{key.capitalize}:"
   value.each do |holiday, supply| 
-    holiday = holiday.to_s.split("_").collect { |word| word.capitalize!}.join{' '}
+    updated_holiday = holiday.to_s.split("_").collect { |word| word.capitalize!}.join{' '}
     supply = supply.join(", ")
-    puts "  #{holiday}: #{supply}"
+    puts "  #{udpated_holiday}: #{supply}"
   end
 end
 end
