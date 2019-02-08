@@ -77,6 +77,7 @@ holiday_hash.each do |key, value|
       array.push(holiday)
     end
 end
+end
 array
 end
 
