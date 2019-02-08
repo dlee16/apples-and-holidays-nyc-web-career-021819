@@ -61,8 +61,7 @@ holiday_hash.each do |key, value|
   puts "#{key.capitalize}:"
   value.each do |holiday, supply| 
     holiday = holiday.to_s.split("_").each { |word| word.capitalize}.join{' '}
-    supply = supply.to_s.split(",")
-    supply = supply.capitalize!.join (" ,")
+    supply = supply.to_s.join(", ")
     puts "#{holiday}: #{supply}"
   end
 
