@@ -65,7 +65,7 @@ holiday_hash.each do |key, value|
     supply = supply.to_s.split(',')
     supply = supply.capitalize!.join (" ,")
     puts "#{holiday}: #{supply}"
-  
+  end
 
 
 end
