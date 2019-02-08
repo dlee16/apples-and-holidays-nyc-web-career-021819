@@ -75,6 +75,7 @@ holiday_hash.each do |key, value|
     if value1.include?("BBQ")
       return key1
     end
+  end
 end
 
 
