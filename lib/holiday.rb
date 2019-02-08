@@ -74,7 +74,7 @@ array = []
 holiday_hash.each do |key, value| 
   value.each do | key1, value1| 
     if value1 =="BBQ"
-      return key1
+      array.push(key1)
     end
   end
 end
